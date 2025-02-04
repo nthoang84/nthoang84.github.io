@@ -45,7 +45,7 @@ params:
           enabled: true
           title: Hoang Nguyen
           subtitle: "Hello! I am a first-year Economics PhD student at Brown University. I conduct research on macroeconomics broadly understood. Prior to graduate school, I was a predoctoral researcher in the Economics and Computation group at Microsoft Research New England."
-          imageUrl: "hoang_brown.jpg"
+          imageUrl: "hoang_brown.JPG"
           imageWidth: 160
           imageHeight: 160
           buttons:
