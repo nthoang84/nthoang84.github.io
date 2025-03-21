@@ -2,10 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Research on Hoang Nguyen</title>
-    <link>http://localhost:1313/research/</link>
+    <link>http://localhost:63178/research/</link>
     <description>Recent content in Research on Hoang Nguyen</description>
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/research/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:63178/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Added Worker Effect</title>
+      <link>http://localhost:63178/awe/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:63178/awe/</guid>
+      <description>This project documents empirical evidence of added worker effect (AWE) among US households using IPUMS Current Population Survey (CPS) microdata.</description>
+    </item>
+    <item>
+      <title>Wealth Inequality</title>
+      <link>http://localhost:63178/inequality/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:63178/inequality/</guid>
+      <description>This project replicates macroeconomic models featuring heterogeneous agents and wealth inequality.</description>
+    </item>
+    <item>
+      <title>College Financial Aid</title>
+      <link>http://localhost:63178/finaid/</link>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:63178/finaid/</guid>
+      <description>This project analyzes college financial aid policies.</description>
+    </item>
   </channel>
 </rss>

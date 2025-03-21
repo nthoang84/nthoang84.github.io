@@ -1,4 +1,4 @@
 ---
 title: "Research"
-description: "Publications and working papers by Hoang Nguyen."
+description: "Publications, working papers, and work in progress by Hoang Nguyen."
 ---

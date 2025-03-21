@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Curriculum Vitae | Hoang Nguyen</title>
+<title>Wealth Inequality | Hoang Nguyen</title>
 <meta name="keywords" content="">
-<meta name="description" content="Hoang Nguyen&#39;s CV">
+<meta name="description" content="This project replicates macroeconomic models featuring heterogeneous agents and wealth inequality.">
 <meta name="author" content="Hoang Nguyen">
-<link rel="canonical" href="http://localhost:63178/cv/">
+<link rel="canonical" href="http://localhost:63178/inequality/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.dc028c04e1484828cf11e6f0c9377ecf06612543f6183b364b271582ada55e23.css" integrity="sha256-3AKMBOFISCjPEebwyTd&#43;zwZhJUP2GDs2SycVgq2lXiM=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:63178/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:63178/favicon-16x16.png">
@@ -17,7 +17,7 @@
 <link rel="apple-touch-icon" href="http://localhost:63178/apple-touch-icon.png">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:63178/cv/">
+<link rel="alternate" hreflang="en" href="http://localhost:63178/inequality/">
 <noscript>
     <style>
         #theme-toggle,
@@ -26,16 +26,16 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="Curriculum Vitae" />
-<meta property="og:description" content="Hoang Nguyen&#39;s CV" />
+</noscript><meta property="og:title" content="Wealth Inequality" />
+<meta property="og:description" content="This project replicates macroeconomic models featuring heterogeneous agents and wealth inequality." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:63178/cv/" /><meta property="article:section" content="" />
-<meta property="article:published_time" content="2025-02-04T00:00:00+00:00" />
-<meta property="article:modified_time" content="2025-02-04T00:00:00+00:00" />
+<meta property="og:url" content="http://localhost:63178/inequality/" /><meta property="article:section" content="research" />
+<meta property="article:published_time" content="2025-03-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2025-03-01T00:00:00+00:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Curriculum Vitae"/>
-<meta name="twitter:description" content="Hoang Nguyen&#39;s CV"/>
+<meta name="twitter:title" content="Wealth Inequality"/>
+<meta name="twitter:description" content="This project replicates macroeconomic models featuring heterogeneous agents and wealth inequality."/>
 
 
 <script type="application/ld+json">
@@ -46,8 +46,14 @@
     {
       "@type": "ListItem",
       "position":  1 ,
-      "name": "Curriculum Vitae",
-      "item": "http://localhost:63178/cv/"
+      "name": "Research",
+      "item": "http://localhost:63178/research/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Wealth Inequality",
+      "item": "http://localhost:63178/inequality/"
     }
   ]
 }
@@ -56,24 +62,24 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Curriculum Vitae",
-  "name": "Curriculum Vitae",
-  "description": "Hoang Nguyen's CV",
+  "headline": "Wealth Inequality",
+  "name": "Wealth Inequality",
+  "description": "This project replicates macroeconomic models featuring heterogeneous agents and wealth inequality.",
   "keywords": [
     
   ],
-  "articleBody": "Download PDF\nEducation Brown University, 2024 – present\nPh.D. in Economics Dartmouth College, 2020 – 2023\nA.B. in Mathematics and Economics with Honors, magna cum laude Research Experience Microsoft Research New England, 2023 – 2024\nPredoctoral Researcher in Economics and Computation Worked with Dr. Markus Möbius on online news consumption Worked with Dr. Eleanor Dillon on returns to entrepreneurship Dartmouth College, 2021 – 2023\nJames O. Freedman Presidential Scholar Worked with Professor Andrew Samwick on college financial aid policies Worked with Professor Diego Comin on technology adoption and productivity ",
-  "wordCount" : "89",
+  "articleBody": " Download Replication of Aiyagari (1994) Replication of Cagetti and De Nardi (2006) Project Description One standard assumption in macroeconomic models is that of complete markets—where agents have access to a sufficiently rich set of assets, ensuring wealth can be transferred across dates or states. However, empirical evidence rejects this view, leading to a focus on incomplete markets. Aiyagari (1994) introduces an incomplete-market model of heterogeneous agents with borrowing constraints in an environment with idiosyncratic, but no aggregate, risk. In this model, infinitely-lived agents face uninsurable income shocks and borrowing constraints that prevent them from fully smoothing consumption over time, forcing them to rely on precautionary savings. As a result, even when income is relatively evenly distributed, wealth accumulates in a highly skewed manner, leading to a distribution that is significantly more dispersed than income. I implement this model in C++ to replicate these results, using the Endogenous Grid Method as detailed in Tomás R. Martinez’s computational guide.\nCagetti and De Nardi (2006) develop a model of wealth inequality that distinguishes between entrepreneurs and workers, resulting in highly skewed wealth distributions. In this model, agents with higher ability who earn higher returns accumulate significant wealth. Entrepreneurial firms operate under decreasing returns-to-scale production functions, so higher entrepreneurial ability allows them to achieve a larger optimal scale. Because debt contracts are not fully enforceable due to limited commitment, business owners must use some of their assets as collateral, a portion of which may be seized if they default. As a result, entrepreneurs with promising projects have more at stake in the event of default, leading them to save more for collateral and borrow more to reach that larger scale. This process creates an extreme concentration of wealth at the top, particularly among entrepreneurial households. I replicate these results with a simplified version of this model that considers only young agents, thereby avoiding complications arising from Social Security payments and bequest incentives among old agents.\nAcknowledgements I thank Professor Alexandre Gaillard for his support, encouragement, and guidance in helping me understand and correctly implement these models. Any remaining errors are my own.\n",
+  "wordCount" : "348",
   "inLanguage": "en",
-  "datePublished": "2025-02-04T00:00:00Z",
-  "dateModified": "2025-02-04T00:00:00Z",
-  "author":{
+  "datePublished": "2025-03-01T00:00:00Z",
+  "dateModified": "2025-03-01T00:00:00Z",
+  "author":[{
     "@type": "Person",
     "name": "Hoang Nguyen"
-  },
+  }],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:63178/cv/"
+    "@id": "http://localhost:63178/inequality/"
   },
   "publisher": {
     "@type": "Organization",
@@ -131,7 +137,7 @@
         <ul id="menu">
             <li>
                 <a href="http://localhost:63178/cv/" title="CV">
-                    <span class="active">CV</span>
+                    <span>CV</span>
                 </a>
             </li>
             <li>
@@ -154,33 +160,25 @@
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      Curriculum Vitae
+      Wealth Inequality
     </h1>
+    <div class="post-meta"><span title='2025-03-01 00:00:00 +0000 UTC'>March 2025</span>&nbsp;&middot;&nbsp;Hoang Nguyen
+
+</div>
   </header> 
-  <div class="post-content"><p><a href="../cv.pdf">Download PDF</a></p>
+  <div class="post-content"><hr>
+<h4 id="download">Download</h4>
+<ul>
+<li><a href="https://github.com/nthoang84/aiyagari" target="_blank">Replication of Aiyagari (1994)</a></li>
+<li><a href="https://github.com/nthoang84/entrepreneurship" target="_blank">Replication of Cagetti and De Nardi (2006)</a></li>
+</ul>
 <hr>
-<h2 id="education">Education</h2>
-<p><strong>Brown University</strong>, 2024 &ndash; present</p>
-<ul>
-<li>Ph.D. in Economics</li>
-</ul>
-<p><strong>Dartmouth College</strong>, 2020 &ndash; 2023</p>
-<ul>
-<li>A.B. in Mathematics and Economics with Honors, <em>magna cum laude</em></li>
-</ul>
-<h2 id="research-experience">Research Experience</h2>
-<p><strong>Microsoft Research New England</strong>, 2023 &ndash; 2024</p>
-<ul>
-<li><a href="https://www.microsoft.com/en-us/research/theme/economics-and-computation/predoctoral-researchers/" target="_blank">Predoctoral Researcher in Economics and Computation</a></li>
-<li>Worked with Dr. Markus Möbius on online news consumption</li>
-<li>Worked with Dr. Eleanor Dillon on returns to entrepreneurship</li>
-</ul>
-<p><strong>Dartmouth College</strong>, 2021 &ndash; 2023</p>
-<ul>
-<li><a href="https://dartmouth.smartcatalogiq.com/en/current/orc/regulations/undergraduate-study/fellowships-and-scholarships/james-o-freedman-presidential-scholars/" target="_blank">James O. Freedman Presidential Scholar</a></li>
-<li>Worked with Professor Andrew Samwick on college financial aid policies</li>
-<li>Worked with Professor Diego Comin on technology adoption and productivity</li>
-</ul>
+<h5 id="project-description">Project Description</h5>
+<p>One standard assumption in macroeconomic models is that of complete markets—where agents have access to a sufficiently rich set of assets, ensuring wealth can be transferred across dates or states. However, empirical evidence rejects this view, leading to a focus on incomplete markets. <a href="https://doi.org/10.2307/2118417" target="_blank">Aiyagari (1994)</a> introduces an incomplete-market model of heterogeneous agents with borrowing constraints in an environment with idiosyncratic, but no aggregate, risk. In this model, infinitely-lived agents face uninsurable income shocks and borrowing constraints that prevent them from fully smoothing consumption over time, forcing them to rely on precautionary savings. As a result, even when income is relatively evenly distributed, wealth accumulates in a highly skewed manner, leading to a distribution that is significantly more dispersed than income. I implement this model in C++ to replicate these results, using the Endogenous Grid Method as detailed in <a href="https://tomasrm.github.io/teaching/quantmacro/aiyagari_comp.pdf" target="_blank">Tomás R. Martinez&rsquo;s computational guide</a>.</p>
+<p><a href="https://doi.org/10.1086/508032" target="_blank">Cagetti and De Nardi (2006)</a> develop a model of wealth inequality that distinguishes between entrepreneurs and workers, resulting in highly skewed wealth distributions. In this model, agents with higher ability who earn higher returns accumulate significant wealth. Entrepreneurial firms operate under decreasing returns-to-scale production functions, so higher entrepreneurial ability allows them to achieve a larger optimal scale. Because debt contracts are not fully enforceable due to limited commitment, business owners must use some of their assets as collateral, a portion of which may be seized if they default. As a result, entrepreneurs with promising projects have more at stake in the event of default, leading them to save more for collateral and borrow more to reach that larger scale. This process creates an extreme concentration of wealth at the top, particularly among entrepreneurial households. I replicate these results with a simplified version of this model that considers only young agents, thereby avoiding complications arising from Social Security payments and bequest incentives among old agents.</p>
+<hr>
+<h5 id="acknowledgements">Acknowledgements</h5>
+<p>I thank <a href="https://www.a-gaillard.com/" target="_blank">Professor Alexandre Gaillard</a> for his support, encouragement, and guidance in helping me understand and correctly implement these models. Any remaining errors are my own.</p>
 
   </div>
 
