@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hoang Nguyen</title>
-    <link>http://localhost:63178/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Hoang Nguyen</description>
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:63178/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Added Worker Effect</title>
-      <link>http://localhost:63178/awe/</link>
+      <link>http://localhost:1313/awe/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63178/awe/</guid>
+      <guid>http://localhost:1313/awe/</guid>
       <description>This project documents empirical evidence of added worker effect (AWE) among US households using IPUMS Current Population Survey (CPS) microdata.</description>
     </item>
     <item>
       <title>Wealth Inequality</title>
-      <link>http://localhost:63178/inequality/</link>
+      <link>http://localhost:1313/inequality/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63178/inequality/</guid>
+      <guid>http://localhost:1313/inequality/</guid>
       <description>This project replicates macroeconomic models featuring heterogeneous agents and wealth inequality.</description>
     </item>
     <item>
       <title>College Financial Aid</title>
-      <link>http://localhost:63178/finaid/</link>
+      <link>http://localhost:1313/finaid/</link>
       <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63178/finaid/</guid>
+      <guid>http://localhost:1313/finaid/</guid>
       <description>This project analyzes college financial aid policies.</description>
     </item>
     <item>
       <title>Curriculum Vitae</title>
-      <link>http://localhost:63178/cv/</link>
+      <link>http://localhost:1313/cv/</link>
       <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63178/cv/</guid>
+      <guid>http://localhost:1313/cv/</guid>
       <description>Hoang Nguyen&amp;#39;s CV</description>
     </item>
   </channel>

@@ -24,6 +24,10 @@ hidemeta: true
 
 + A.B. in Mathematics and Economics with Honors, *magna cum laude*
 
+**Hanoi-Amsterdam High School for the Gifted**, 2017 -- 2020
+
++ High School Diploma with Mathematics specialization
+---
 
 ## Research Experience 
 
